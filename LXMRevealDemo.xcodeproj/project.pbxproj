@@ -16,6 +16,7 @@
 		434503601B4FBFDD00D59C06 /* LXMRevealDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4345035F1B4FBFDD00D59C06 /* LXMRevealDemoTests.m */; };
 		4345036C1B4FC01E00D59C06 /* UIView+LXMReveal.m in Sources */ = {isa = PBXBuildFile; fileRef = 4345036B1B4FC01E00D59C06 /* UIView+LXMReveal.m */; };
 		4345036E1B4FC38500D59C06 /* profile108.png in Resources */ = {isa = PBXBuildFile; fileRef = 4345036D1B4FC38500D59C06 /* profile108.png */; };
+		4363B1241B5F8AD000EEA79C /* UIView+LXMAppleReveal.m in Sources */ = {isa = PBXBuildFile; fileRef = 4363B1231B5F8AD000EEA79C /* UIView+LXMAppleReveal.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,8 @@
 		4345036A1B4FC01E00D59C06 /* UIView+LXMReveal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LXMReveal.h"; sourceTree = "<group>"; };
 		4345036B1B4FC01E00D59C06 /* UIView+LXMReveal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LXMReveal.m"; sourceTree = "<group>"; };
 		4345036D1B4FC38500D59C06 /* profile108.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile108.png; sourceTree = "<group>"; };
+		4363B1221B5F8AD000EEA79C /* UIView+LXMAppleReveal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LXMAppleReveal.h"; sourceTree = "<group>"; };
+		4363B1231B5F8AD000EEA79C /* UIView+LXMAppleReveal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LXMAppleReveal.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +134,8 @@
 			children = (
 				4345036A1B4FC01E00D59C06 /* UIView+LXMReveal.h */,
 				4345036B1B4FC01E00D59C06 /* UIView+LXMReveal.m */,
+				4363B1221B5F8AD000EEA79C /* UIView+LXMAppleReveal.h */,
+				4363B1231B5F8AD000EEA79C /* UIView+LXMAppleReveal.m */,
 			);
 			path = LXMReveal;
 			sourceTree = "<group>";
@@ -239,6 +244,7 @@
 				4345034C1B4FBFDD00D59C06 /* ViewController.m in Sources */,
 				4345036C1B4FC01E00D59C06 /* UIView+LXMReveal.m in Sources */,
 				434503491B4FBFDD00D59C06 /* AppDelegate.m in Sources */,
+				4363B1241B5F8AD000EEA79C /* UIView+LXMAppleReveal.m in Sources */,
 				434503461B4FBFDD00D59C06 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,6 +440,7 @@
 				434503651B4FBFDD00D59C06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		434503661B4FBFDD00D59C06 /* Build configuration list for PBXNativeTarget "LXMRevealDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -442,6 +449,7 @@
 				434503681B4FBFDD00D59C06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

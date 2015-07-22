@@ -8,11 +8,14 @@
 
 #import "ViewController.h"
 #import "UIView+LXMReveal.h"
+#import "UIView+LXMAppleReveal.h"
 
 @interface ViewController ()
 
 @property (weak, nonatomic) IBOutlet UIImageView *testImageView;
 
+
+@property (weak, nonatomic) IBOutlet UIImageView *twoImageView;
 
 @end
 
@@ -22,6 +25,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     [self.testImageView setupForReveal];
+    
+    self.twoImageView.layer.cornerRadius = 10;
+    self.twoImageView.layer.masksToBounds = YES;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -44,4 +50,9 @@
     [self.testImageView lxmReveal];
 }
 
+- (IBAction)handleLXMAppleRevealButtonTapped:(id)sender {
+    
+    [self.twoImageView setupForLXMAppleReveal];
+    [self.twoImageView lxmAppleReveal];
+}
 @end

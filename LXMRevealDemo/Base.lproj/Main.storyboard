@@ -37,11 +37,24 @@
                                     <action selector="handleRevealButtonTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="www-l5-GYt"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gy4-vb-tdE">
+                                <rect key="frame" x="105" y="388" width="111" height="30"/>
+                                <state key="normal" title="lxmAppleReveal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="handleLXMAppleRevealButtonTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="x5f-xM-dtk"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="profile108.png" translatesAutoresizingMaskIntoConstraints="NO" id="aMH-3d-op7">
+                                <rect key="frame" x="110" y="268" width="100" height="100"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
                         <outlet property="testImageView" destination="7Y5-1F-dhA" id="BeZ-Qh-2oX"/>
+                        <outlet property="twoImageView" destination="aMH-3d-op7" id="E1y-AT-4k5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
